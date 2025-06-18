@@ -1,0 +1,15 @@
+chromium/
+go/
+gtk*/
+glow/
+dconf/
+discord/
+guvcview2/
+htop/
+nitrogen/
+pavucontrol*
+pulse/
+polybar.old/
+spotify/
+user-dirs*
+vlc/
