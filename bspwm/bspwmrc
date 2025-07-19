@@ -4,7 +4,8 @@ sxhkd &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI
+bspc monitor HDMI-0 -d I II III IV V 
+bspc monitor DP-0 -d VI VII VIII IX X
 
 bspc config border_width         0
 bspc config window_gap           8
@@ -13,10 +14,12 @@ bspc config split_ratio          0.5
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-$HOME/.config/polybar/launch.sh --grayblocks
+#$HOME/.config/polybar/material/scripts/pywal.sh $HOME/Pictures/nyc.jpg
+$HOME/.screenlayout/default.sh
+feh --bg-fill $HOME/Pictures/nyc.jpg --bg-fill $HOME/Pictures/stars-4k.jpg
+$HOME/.config/polybar/launch.sh --forest
 #polybar_config="$HOME/.config/polybar/config.ini"
 #polybar_bars=(top bottom)
-#feh --bg-fill $HOME/wallpaper.jpg
 #xsetroot -cursor_name left_ptr
 #picom &
 

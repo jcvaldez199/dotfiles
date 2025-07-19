@@ -1,6 +1,6 @@
 [general]
 import = [
-  "~/.config/alacritty/themes/themes/monokai_charcoal.toml"
+  "~/.config/alacritty/themes/themes/pastel_dark.toml"
 ]
 
 #[colors.bright]
@@ -28,7 +28,7 @@ import = [
 #foreground = "#abb2bf"
 
 [font]
-size = 8
+size = 10
 
 [font.bold]
 family = "JetbrainsMono Nerd Font"

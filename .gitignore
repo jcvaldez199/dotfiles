@@ -16,3 +16,5 @@ vlc/
 Slack/
 turborepo/
 nvim/lazy-lock.json
+alacritty/themes/
+systemd/
