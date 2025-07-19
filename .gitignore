@@ -13,3 +13,6 @@ polybar.old/
 spotify/
 user-dirs*
 vlc/
+Slack/
+turborepo/
+nvim/lazy-lock.json
