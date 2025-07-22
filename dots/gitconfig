@@ -1,1 +1,6 @@
-/home/wang/.gitconfig
+[user]
+	email = jcvaldez199@gmail.com
+	name = Troy Valdez
+[credential]
+	helper = store
+	useHttpPath = true
